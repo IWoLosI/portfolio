@@ -1,0 +1,27 @@
+.sidepanel {
+    position: fixed;
+    rotate: -90deg;
+    top: 390px;
+    left: -110px;
+    z-index: 3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 338px;
+    height: 24px;
+    &__divider {
+        width: 70px;
+        height: 0px;
+        border: 1px solid #ffffff;
+    }
+    &__text {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #ffffff;
+    }
+    img {
+        rotate: 90deg;
+        color: #ffffff;
+    }
+}
