@@ -9,7 +9,7 @@
         z-index: 2;
         @include before_circle;
     }
-    .title {
+    &__title {
         width: 535px;
         margin-top: 10px;
     }
