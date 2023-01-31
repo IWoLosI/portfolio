@@ -6,14 +6,14 @@
         display: grid;
         grid-template-columns: repeat(2, 366px);
         grid-template-rows: repeat(3, minmax 45px, auto); 
+        grid-auto-rows: minmax(45px, auto);
         justify-content: space-between;
         row-gap: 15px;
     }
     &__item {
         display: grid;
         padding-left: 25px;
-        grid-template-columns: repeat(2, auto);
-        grid-template-rows: 21px 20px;
+        grid-template: repeat(2, minmax(21px, auto)) / repeat(2, auto);
         justify-content: space-between;
         align-content: space-between;
         
